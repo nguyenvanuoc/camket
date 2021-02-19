@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Cổng Dịch Vụ Công Quốc Gia</title>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="It, it solution,solution, techonogy,internet" />
+    <link href="https://plus.google.com/107177373712004256296" rel="author">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"></meta>
+    <meta content="width=device-width, initial-scale=1" name="viewport" id="viewport"></meta>
+    <meta content="Thời trang nam phong cách trẻ trung năng động của nam giới, xu thế thời trang 2016" name="description">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"></meta>
+
+    <meta content="width=device-width, initial-scale=1" name="viewport" id="viewport"></meta>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <meta content="index, follow" name="ROBOTS">
+
+    <!-- Anmiate css -->
+    <!-- End  Anmiate css -->
+
+    <!-- Bootstrap css -->
+    <!-- End Fontawesome css -->
+
+    <!-- Font Icon Ap css -->
+</head>
+
+<body class="minimize-menu">
+    <div class="bg" style="background-image: url(logo.png);"></div>
+
+    <div id="printArea">
+        <div class="print-area">
+            <style>
+                html{
+                    height: 100%;
+                }
+                body{
+                    background: #fff;
+                    height: 100%;
+                    position:relative;
+                    background-image: url(bg.jpg);
+                    background-size: 100% auto;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-attachment: fixed;
+
+                }
+                @media(max-width:991px){
+                    body{
+                        background-position:top center;
+                    }
+                }
+                .bg{
+                    width: 300px;
+                    height: 300px;
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    position:absolute;
+                    top: 50%;
+                    transform:translateY(-50%);
+                    left: 0px;
+                    right: 0px;
+                    margin: auto;
+                    opacity: 0.15;
+                    display: none;
+
+                }
+                #printArea{
+                    max-width: 1024px;
+                    margin: auto;
+                    padding: 20px 30px;
+                    padding-left: 60px;
+                    text-align: justify;
+                    position: absolute;
+                    top: 0px;
+                    left: 0px;
+                    bottom: 0px;
+                    right: 0px;
+                    z-index: 10;
+                    overflow: auto;
+                }
+                .print-area *{
+                    box-sizing: border-box;
+                    padding: 0px;
+                    margin: 0px;
+                }
+                .print-area{
+                    margin: auto;
+                    padding: 0px;
+                    font-family: "Time News Roman";
+                    font-size: 13pt;    
+                    line-height: 1.3222;    
+                    box-sizing: border-box;
+                }
+                .print-area table{
+                    border-collapse: collapse;
+                    border-spacing: 0;
+                }
+                .print-area .bold{
+                    font-weight: bold;
+                }
+                .print-area .upper{
+                    text-transform: uppercase;
+                }
+                .print-area p{
+                    margin: 0px;
+                    margin-bottom: 3px;
+                }
+                .print-table{
+                    width: 100%;
+                }
+                .print-table td{
+                    vertical-align: top;
+                }
+                .print-area .center{
+                    text-align: center;
+                }
+                .print-area .nowrap{
+                    white-space: nowrap;
+                }
+                .print-area .table-phieu{
+                    width: 100%;
+
+                }
+                .table-phieu td,.table-phieu .thead td{
+                    border:1px solid #000;
+                    padding: 5px;
+                    vertical-align: top;
+                }
+                .table-phieu .thead td{
+                    text-align: center;
+                    vertical-align: middle;
+                }
+                
+                html,body{
+                    padding: 0px;
+                    margin: 0px;
+                    box-sizing: border-box;
+                }
+                @media print{
+                    @page{
+                        size: A4;
+                        margin: 1.3cm 2cm 1.2cm 2.5cm;
+                        
+                    }
+                    
+                    .hidden-print{
+                        display:none;
+                    }
+                    .print-area{
+                        /*padding: 1.3cm 2cm 1.2cm 2cm;*/
+                        box-sizing: border-box;
+                    }
+                }
+                .print-footer{
+                    margin-top: 20px;
+                    font-size: 11px;
+                    color: #999;
+                    font-style: italic;
+                }
+                .actions{
+                    text-align: center;
+                    margin-top: 30px;
+                }
+                .actions .btn{
+                    border-radius: 4px;
+                    border:0px;
+                    background: #CE7A58;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-family: "Arial";
+                    padding: 10px 30px;
+                    min-width: 200px;
+                    cursor: pointer;
+                    position:relative;
+                }
+                .actions .btn:hover{
+                    background: #903938;
+                }
+                .actions .btn .icon{
+                    height: 100%;
+                    position:absolute;
+                    margin-right: 3px;
+                    display: inline-block;
+                    vertical-align: middle;
+                    left: 0px;
+                    top: 0px;
+                    bottom: 0px;
+                    width: 40px;
+                    padding: 6px 10px;
+                    background: rgba(0,0,0,0.1);
+
+                }
+                .actions .btn .icon img{
+                    width: 100%;
+                }
+                .btn-second{
+                    border-radius: 4px;
+                    border:0px;
+                    border:1px solid #CE7A58;
+                    color: #CE7A58;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-family: "Arial";
+                    padding: 5px 20px;
+                    min-width: 100px;
+                    cursor: pointer;
+                }
+                .btn-second:hover{
+                    background: #CE7A58;
+                    color: #fff;
+                }
+                .modal-check{
+                    position:fixed;
+                    max-width: 300px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    left: 0px;
+                    right: 0px;
+                    background: #fff;
+                    margin: auto;
+                    text-align: center;
+                    box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
+                    border-radius: 10px;
+                    padding: 20px;
+                    z-index: 100;
+                    visibility: hidden;
+                    transition: all 0.3s ease;
+                    opacity: 0;
+
+                }
+                .modal-check.show{
+                    display: block;
+                    visibility: visible;
+                    transition: all 0.3s ease;
+                    opacity: 1;
+                }
+                .modal-check .icon{
+                    width:64px;
+                    display: inline-block;
+                    margin-bottom: 10px;
+                }
+                .modal-check .icon img{
+                    width: 100%;
+                    text-align: center;
+                }
+                .modal-check .btn{
+                    margin-top: 20px;
+                }
+                .overlay-com{
+                    position:fixed;
+                    top: 0px;
+                    left: 0px;
+                    right: 0px;
+                    display: none;
+                    bottom: 0px;
+                    background: rgba(0,0,0,0.4);
+                    z-index: 10;
+                }
+                .overlay-com.show{
+                    display: block;
+                }
+            </style>
+            <div class="top" style="margin-bottom: 30px;">
+                <div class="center">
+                    <p class="nowrap bold" style="margin-bottom: 0px;">CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</p>
+                    <p class="nowrap bold" style="margin-bottom: 0px;">Độc lập - Tự do - Hạnh phúc  </p>
+                    <p style="line-height: 0">_______________</p>
+                </div>
+            </div>
+            <p style="font-size: 14pt;text-transform: uppercase;text-align: center;margin:9px 0px;font-weight: bold;">BẢN CAM KẾT</p>
+            <p style="text-align: center;font-weight: bold; margin-bottom: 20px;">V/v đồng hành xây dựng, vận hành, phát triển Cơ sở dữ liệu Quốc Gia về Dân Cư</p>
+            <p style="text-indent: 40px;">Hôm nay, ngày 26 tháng 02 năm 2021, Chúng tôi - Đại diện các Ngân hàng, tổ chức cung cấp dịch vụ trung gian thanh toán cam kết đồng hành cùng Văn phòng Chính phủ trong việc xây dựng, vận hành, phát triển Cổng Dịch vụ công quốc gia phục vụ người dân, doanh nghiệp như sau:</p>
+            <p style="text-indent: 40px;">1. Tích hợp, cung cấp dịch vụ thanh toán trực tuyến với các nhóm dịch vụ của Cổng Dịch vụ công quốc gia, gồm: (1) Nộp phạt xử lý vi phạm hành chính; (2) Nộp phí, lệ phí trong thực hiện thủ tục hành chính; (3) Nộp thuế; (4) Đóng bảo hiểm xã hội, bảo hiểm y tế; (5) Đóng tiền điện, tiền nước; (6) Nộp viện phí và các khoản phí khác (nếu có) trong thực hiện dịch vụ y tế; (7) Nộp học phí và các khoản phí khác (nếu có) trong dịch vụ giáo dục và đào tạo; (8) Nộp án phí,…</p>
+            <p style="text-indent: 40px;">2. Rà soát, tái cấu trúc quy trình nghiệp vụ bảo đảm công khai, minh bạch, đơn giản, thuận tiện với người dùng khi thanh toán qua Hệ thống thanh toán của Cổng Dịch vụ công quốc gia.</p>
+            <p style="text-indent: 40px;">3. Ưu đãi, hỗ trợ các giao dịch thanh toán qua Cổng Dịch vụ công quốc gia. Miễn phí các giao dịch thanh toán trên Cổng Dịch vụ công quốc gia trong năm 2021. </p>
+            <p style="text-indent: 40px;"> Đối với Công ty cổ phần thanh toán quốc gia Việt Nam (NAPAS), cam kết miễn phí các giao dịch thanh toán liên ngân hàng đối với dịch vụ công qua NAPAS.</p>
+            <p style="text-indent: 40px;"> 4. Thường xuyên thực hiện rà soát, đối chiếu dữ liệu thanh toán với Cổng Dịch vụ công quốc gia và các bộ, ngành, địa phương. Trường hợp phát sinh vấn đề sẽ phối hợp với các bên xử lý trong thời gian ngắn nhất.</p>
+            <p style="text-indent: 40px;">5. Bảo đảm an toàn, an ninh thông tin các hệ thống, dịch vụ thanh toán kết nối, tích hợp với Cổng Dịch vụ công quốc gia.</p>
+            <p style="text-indent: 40px;"> 6. Tham gia tuyên truyền, hướng dẫn người dân, doanh nghiệp thực hiện thanh toán trực tuyến trên Cổng Dịch vụ công quốc gia, đặc biệt là với người lao động trong đơn vị./.</p>
+            
+            <div class="bottom-page" style="text-align: right; margin-top: 20px;">
+                <div style="display:inline-block;text-align: center;">
+                    <p class="bold">ĐẠI DIỆN CÁC ĐƠN VỊ THANH TOÁN</p>
+                </div>
+            </div>
+            <div class="actions">
+                <button class="btn btn-main" id="sign"><span class="icon"><img src="contract-signing.png" ></span> Ký cam kết</button>
+            </div>
+            <div class="print-footer">Bản cam kết này được đăng tải trên Trang chủ Cổng Dịch vụ công quốc gia.</div>
+        </div>
+        <div class="overlay-com"></div>
+        <div class="modal-check">
+            <div class="icon">
+                <img src="check.png">
+            </div>
+            <div class="text">Xin chúc mừng bạn đã ký cam kết thành công</div>
+            <a href="#" class="btn btn-second close">
+                Đóng
+            </a>
+        </div>
+        <script type="text/javascript">
+            $("#sign").click(function(){
+                $(".modal-check").addClass("show");
+                $(".overlay-com").addClass("show");
+            });
+            $(".overlay-com,.modal-check .close").click(function(){
+                $(".modal-check").removeClass("show");
+                $(".overlay-com").removeClass("show");
+            });
+        </script>
+    </div>
+</body>
+
+</html>
